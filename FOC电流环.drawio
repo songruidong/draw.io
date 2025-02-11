@@ -1448,9 +1448,6 @@
             <mxPoint x="460" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wpYgrsRtnzbnCawRyZDz-26" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="510" y="870" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="wpYgrsRtnzbnCawRyZDz-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1" source="wpYgrsRtnzbnCawRyZDz-6" target="wpYgrsRtnzbnCawRyZDz-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="385" y="295" as="sourcePoint" />
