@@ -1820,7 +1820,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UoCjQzZIy6YPGupKITC-" name="第 7 页">
-    <mxGraphModel dx="960" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2173,7 +2173,8 @@
         <mxCell id="g43JSXTzSLOZ6Pw2otQt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="g43JSXTzSLOZ6Pw2otQt-7" target="g43JSXTzSLOZ6Pw2otQt-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="290" />
+              <mxPoint x="830" y="230" />
+              <mxPoint x="830" y="290" />
               <mxPoint x="720" y="290" />
             </Array>
           </mxGeometry>
@@ -2187,13 +2188,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="260" />
+              <mxPoint x="830" y="230" />
+              <mxPoint x="830" y="260" />
               <mxPoint x="530" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="g43JSXTzSLOZ6Pw2otQt-59" value="找零完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="g43JSXTzSLOZ6Pw2otQt-37">
-          <mxGeometry x="-0.4138" y="2" relative="1" as="geometry">
+        <mxCell id="g43JSXTzSLOZ6Pw2otQt-67" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;找零完成&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g43JSXTzSLOZ6Pw2otQt-37">
+          <mxGeometry x="0.0327" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
