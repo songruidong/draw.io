@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14" pages="16">
   <diagram name="第 1 页" id="WdVF3u0vDcm4bt9vMd2t">
-    <mxGraphModel dx="1489" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2554,6 +2554,15 @@
         <mxCell id="9W6L0dU5FHIGBYFLV-5r-12" value="d轴电流方向" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="9W6L0dU5FHIGBYFLV-5r-10">
           <mxGeometry x="156" y="20" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="raK2nOgdcbTxs5vQl3sr-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="312" as="sourcePoint" />
+            <mxPoint x="760" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raK2nOgdcbTxs5vQl3sr-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;牵引一段时间后&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -2780,7 +2789,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UMHwxtWiyIbz8lSUhBh-" name="第 16 页">
-    <mxGraphModel dx="1787" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
