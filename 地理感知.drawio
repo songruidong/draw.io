@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="iH0c5nvuek-5gZ_y1XVj">
+    <mxGraphModel dx="1264" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6WK9AOk8DcclVpgZM7om-8" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-9" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" value="获取位置权限" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-12" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" value="用户打开特定应用" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-13" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" value="记录位置信息" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-10" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" value="用户解锁" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-11" edge="1" parent="1" source="6WK9AOk8DcclVpgZM7om-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="6WK9AOk8DcclVpgZM7om-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" value="获取位置信息" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" value="模型推理决定是否预加载" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="6WK9AOk8DcclVpgZM7om-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" value="模型训练" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
