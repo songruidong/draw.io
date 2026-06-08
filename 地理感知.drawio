@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="iH0c5nvuek-5gZ_y1XVj">
     <mxGraphModel dx="1264" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -42,6 +42,84 @@
         </mxCell>
         <mxCell id="6WK9AOk8DcclVpgZM7om-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" value="模型训练" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5RAQYy-2iMYOm-b0Co60" name="第 2 页">
+    <mxGraphModel dx="1264" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="学习" vertex="1">
+          <mxGeometry height="30" width="60" x="298" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="使用" vertex="1">
+          <mxGeometry height="30" width="60" x="658" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-3" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="获得关联启动时间&lt;div&gt;识别调用bundle&lt;/div&gt;&lt;div&gt;被调用bundle&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="278" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-5" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="记录一下&lt;div&gt;时间/调用应用/被调用应用&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="253" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-7" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="在间隔一定时间后进行超出时间范围数据进行训练" vertex="1">
+          <mxGeometry height="60" width="175" x="250.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-9" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="聚类出几个时间中心点和半径" vertex="1">
+          <mxGeometry height="60" width="175" x="250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="统计聚类出来的时间段的展码频率" vertex="1">
+          <mxGeometry height="60" width="175" x="250" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-12" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="在负一屏、智X键、长按时" vertex="1">
+          <mxGeometry height="60" width="120" x="628" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-14" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="获取时间&lt;div&gt;判断是否在聚类时间中心范围&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="603" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="轻度预加载" vertex="1">
+          <mxGeometry height="60" width="110" x="548" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-17" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-18" connectable="0" parent="Y1FiUTOkh_NB8mvzvt9r-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.2059" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-19" edge="1" parent="1" source="Y1FiUTOkh_NB8mvzvt9r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" target="Y1FiUTOkh_NB8mvzvt9r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-20" connectable="0" parent="Y1FiUTOkh_NB8mvzvt9r-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.1442" y="-1" as="geometry">
+            <mxPoint x="1" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" value="判断预加载频率是否超过阈值" vertex="1">
+          <mxGeometry height="80" width="80" x="648" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1FiUTOkh_NB8mvzvt9r-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="重度预加载" vertex="1">
+          <mxGeometry height="60" width="110" x="748" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
